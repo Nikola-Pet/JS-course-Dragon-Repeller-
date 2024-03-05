@@ -67,4 +67,6 @@ function fightDragon() {
 
 function buyHealth() {}
 
-function buyWeapon() {}
+function fightSlime() {}
+
+function fightBeast() {}
