@@ -119,6 +119,7 @@ function sellWeapon() {
     if(inventory.length > 1) {
         goldText.innerText = gold += 15;
         let currentWeapon = inventory.shift();
+        text.innerText = "You sold a "+ currentWeapon +".";
     }
 }
 
