@@ -118,6 +118,7 @@ function buyWeapon() {
 function sellWeapon() {
     if(inventory.length > 1) {
         goldText.innerText = gold += 15;
+        let currentWeapon;
     }
 }
 
