@@ -72,8 +72,8 @@ function fightDragon() {
 }
 
 function buyHealth() {
-    gold = gold - 10;
-    health = health + 10;
+    gold -= 10;
+    health += 10;
 }
 
 function fightSlime() {}
